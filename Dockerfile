@@ -14,5 +14,5 @@
 #EXPOSE 5000
 FROM nginx:1.17.1-alpine
 COPY ./dist/Angular-WebApp /usr/share/nginx/html
-EXPOSE 80 8001
-ENTRYPOINT [ "nginx", "-g", "daemon off;" ]
+#EXPOSE 80 8001
+#ENTRYPOINT [ "nginx", "-g", "daemon off;" ]

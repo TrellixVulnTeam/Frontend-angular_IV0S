@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: rohan150699/test1
+        image: rohan150699/testangular:v1
         resources:
           limits:
             memory: "128Mi"
